@@ -10,11 +10,15 @@
   "author": "B, C, D, J.",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
-    "jwt-simple": "^0.5.1",
-    "mongoose": "^4.11.5"
+    "express-session": "^1.15.5",
+    "mongoose": "^4.11.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

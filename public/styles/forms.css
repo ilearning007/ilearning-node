@@ -1,28 +1,56 @@
-.container {
-	width: 100%;
-	max-width: 650px;
-	border-radius: 10px;
-	border: 1px solid gray;
-	margin: auto;
-	padding: 10px;
-}
-
-.form{
-	width: 70%;
-	margin: auto;
-}
-
-input {
-	box-shadow: none;
+.form {
+	border-width: 1px;
+	border-color: gray;
+	border-style: solid;
 	border-radius: 5px;
-	height: 30px;
 	width: 50%;
-	border: 1px solid gray;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
-#submit{
-	height: 20px;
-	width: 70px;
-	margin: 10px;
-	padding: 5px 10px 5px 10px;
+.title-form {
+	width: 100%;
+	background-color: orange;
+	border-radius: inherit;
+}
+
+label, input:not(#submit) {
+	width: 99%;
+	display: block;
+	margin: auto;
+}
+
+.inputs-form {
+	margin: auto;
+	width: 60%;
+}
+
+input:not(#submit) {
+	border-radius: 3px;
+	border: 3px solid rgba(85, 87, 74, .5);
+	padding: 5px;
+	border-width: 1px;
+	box-shadow: none;
+}
+
+#submit {
+	font-size: 20px;
+	font-family: 'Just Another Hand', cursive;
+	border-radius: 7px;
+	padding: 5px 30px;
+	color: white;
+	background-color: #2196F3;
+}
+
+#submit:hover {
+	transform: scale(1.1);
+}
+
+label {
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+}
+
+.input-container {
+	margin: 0px auto 20px auto;
 }
