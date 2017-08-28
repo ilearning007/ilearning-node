@@ -1,0 +1,21 @@
+{{#if !username}}
+	<h4>Error al iniciar sesion, por favor intentalo de nuevo</h4>
+{{/if}}
+
+<div class="form">
+	<form method="post" action="/auth/signIn">
+		<div class="inputs-form">
+			
+			   <div class="input-container">
+			    <label for="name">Name</label>
+			    <input type="text" name="username" placeholder="User name or email">
+			   </div>
+			   <div class="input-container">
+			    <label for="pass">Password</label>
+			    <input type="text" name="password" placeholder="Password">
+			   </div>
+			   <input type="submit" id="submit">
+
+		</div>
+	</form>
+</div>
